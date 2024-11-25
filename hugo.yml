@@ -1,0 +1,55 @@
+baseURL: https://gysli.ng/
+languageCode: en-us
+title: gysli.ng
+theme: PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    
+params:
+  homeInfoParams:
+    Title: "Nathaniel Gysling"
+    Content: "Notes, musings, questionable tutorials."
+  socialIcons: 
+    - name: "github"
+      url: "https://github.com"
+    - name: "email"
+      url: "mailto:nate@gysli.ng"
+  ShowCopyCodeButtons: true
+# params:
+#   profileMode:
+#     enabled: true
+#     title: "gysli.ng" # optional default will be site title
+#     subtitle: "This is subtitle"
+#     imageUrl: "<image link>" # optional
+#     imageTitle: "<title of image as alt>" # optional
+#     imageWidth: 120 # custom size
+#     imageHeight: 120 # custom size
+#     buttons:
+#       - name: Archive
+#         url: "/archive"
+#       - name: Github
+#         url: "https://github.com/"
+
+#   socialIcons: # optional
+#      - name: "github"
+#        url: "https://github.com"
+#      - name: "email"
+#        url: "mailto:nate@gysli.ng"
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: auto
+      name: auto
+      url: /categories/auto/
+      weight: 10
+    - identifier: tech
+      name: tech
+      url: /categories/tech/
+      weight: 10
