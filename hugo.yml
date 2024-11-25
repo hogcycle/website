@@ -1,4 +1,4 @@
-baseURL: https://gysli.ng/
+baseURL: "https://gysli.ng"
 languageCode: en-us
 title: gysli.ng
 theme: PaperMod
