@@ -15,7 +15,7 @@ params:
     Content: "Notes, musings, questionable tutorials."
   socialIcons: 
     - name: "github"
-      url: "https://github.com"
+      url: "https://github.com/hogcycle"
     - name: "email"
       url: "mailto:nate@gysli.ng"
   ShowCopyCodeButtons: true
