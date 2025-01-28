@@ -13,7 +13,7 @@ and relatively simple configuration. I had a few goals in mind:
 - TLS on all connections to appease Bitwarden 
 
 Here's what I came up with. This is a homologation of Tailscale docs, various tutorials, and good old fashioned trial and error. 
-![Diagram from my [state of the homelab](https://gysli.ng/categories/tech/state-of-the-homelab-2025/)](/img/ts-caddy-diagram.png)
+![](/img/ts-caddy-diagram.png)
 
 The caddy container is an LXC container within Proxmox, based off my [container templates](https://github.com/hogcycle/nixos-proxmox-lxc). Note that unprivileged LXC's need a few [adjustments to their lxc.conf](https://tailscale.com/kb/1130/lxc-unprivileged)
 
