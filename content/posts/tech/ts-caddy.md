@@ -1,7 +1,8 @@
 ---
 date: '2025-01-28T16:04:40-05:00'
-draft: true
+draft: false 
 title: 'Remote access with Caddy and NixOS'
+categories: ["tech"]
 ---
 
 I'll physically be away from my network for a while, so I figured it's time for a more robust remote access solution. Previously I was using [wg-easy](https://github.com/wg-easy/wg-easy), but this had it's disadvantages. 
