@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /root/website
+rm -rf /root/website/public/*
+echo "Building with Hugo"
+hugo
+echo "Hugo is done"
+echo "Syncing to root"
+rsync -az --delete /root/website/public/* /var/www/gysling/
+echo "Done!"
