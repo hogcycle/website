@@ -1,7 +1,7 @@
 ---
 date: '2025-01-28T16:04:40-05:00'
 draft: false 
-title: 'Secure remote access with Tailscale and Caddy on NixOS" 
+title: 'Secure remote access with Tailscale and Caddy on NixOS' 
 categories: ["tech"]
 ---
 
