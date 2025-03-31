@@ -76,7 +76,7 @@ Now we have a reverse proxy and a private way to access it. We just need to conn
 In AGH, go Filters > DNS Rewrites and make a new wildcard entry that points *.internal.domain.com to the IP of your Caddy box on your home subnet. 
 In the Tailscale admin panel, go DNS > Add Nameserver > Custom and enter the IP of your AGH instance. Don't use Tailscale's SplitDNS. When you're done, flip the "Override local DNS" switch. 
 
-Now I have a Tailnet have adblocking, internal domains over HTTPS, and the peace of mind knowing I'm not exposing a bloated PHP webapp ready for its next RCE to the WWW. I've only been running this setup for a couple days so far, but so far it's been headache free. Tailscale seems to be a lot easier on my Pixel 6's dying battery and applications like Bitwarden don't complain about the server lacking TLS. 
+Now I have a Tailnet have adblocking, internal domains over HTTPS, and peace of mind. I've only been running this setup for a couple days so far, but so far it's been headache free. Tailscale seems to be a lot easier on my Pixel 6's dying battery and applications like Bitwarden don't complain about the server lacking TLS. 
 
 
 
