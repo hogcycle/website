@@ -78,6 +78,8 @@ In the Tailscale admin panel, go DNS > Add Nameserver > Custom and enter the IP 
 
 Now I have a Tailnet with adblocking, internal domains over HTTPS, and peace of mind. I've only been running this setup for a couple days so far, but so far it's been headache free. Tailscale seems to be a lot easier on my Pixel 6's dying battery and applications like Bitwarden don't complain about the server lacking TLS. 
 
+Test commit for auto builder.
+
 
 
 
