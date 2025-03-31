@@ -1,4 +1,5 @@
 # put in .git/hooks/
+# crontab: */15 * * * * cd /root/website; git pull >> /root/log.txt
 #!/bin/bash
 cd /root/website
 rm -rf /root/website/public/*
