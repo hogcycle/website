@@ -75,6 +75,8 @@ On the Sephia, a hardline comes out of the head and splits off to the heater cor
 
 The Kia line has a big piece where the heater core hose goes. Heat up the head around it with a torch and remove it with a hammer. Ruin the heater core pipe if needed, it doesn't matter. Don't damage the smaller tube. Once that was out, it needed to be sealed. Clamp it with vice grips, hammer it shut, and seal it up with weld. This should be rock solid, but time will tell.
 
+> Note 6/5/25: When reinstalling the heater outlet into the head, use some sort of sealant or even an epoxy. Mine has began to slowly leak from the press fit. With it being against the firewall, servicing it with the engine in the car will be very difficult. 
+
 ![Welded heater hose](/img/heater.jpg)
 *Photo by reddit.com/user/CarbonWood*
 
